@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade With Deepak Wadhwa - BORP Market Talks</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
+body{background:#050505;display:flex;justify-content:center;min-height:100vh;padding:20px;color:#fff}
+.card{background:#1E1E1E;border:1px solid #2a2a2a;border-radius:32px;max-width:440px;width:100%;padding:36px 26px;text-align:center}
+.photo-wrap{width:185px;height:185px;margin:0 auto 18px;position:relative}
+.photo-wrap img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:4px solid #FFD700;box-shadow:0 0 30px rgba(255,215,0,0.6)}
+h1{color:#FFD700;font-size:36px;font-weight:800}
+h2{color:#FFC91A;font-size:16px;margin-bottom:20px}
+.timer-pill{background:rgba(255,215,0,0.08);border:1px solid gold;color:#FFD700;padding:10px 22px;border-radius:100px;display:inline-flex;gap:8px;font-weight:700;margin:15px 0 22px}
+.btn-blue{background:linear-gradient(#3AA0FF,#0A84FF);color:#fff;width:100%;padding:18px;border:none;border-radius:100px;font-size:18px;font-weight:800;cursor:pointer}
+.btn-white{background:#fff;color:#000;width:100%;padding:14px;border:none;border-radius:100px;font-size:14px;font-weight:700;margin-top:16px}
+.point{display:flex;gap:12px;font-size:14px;margin-bottom:16px;text-align:left}
+.tick{width:26px;height:26px;background:#22C55E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="photo-wrap">
+<img src="YOUR_PHOTO_LINK_HERE" alt="Deepak Wadhwa">
+</div>
+<h1>Trade With<br>Deepak Wadhwa</h1>
+<h2>BORP Market Talks with Deepak Wadhwa</h2>
+<div>📊 Stock Market & Option Trading Community 📈</div>
+<div style="color:#2E9FFF;font-weight:700;margin:18px 0">LEARN • ANALYZE • GROW</div>
+<div class="timer-pill">🕒 Join karne ke liye <b id="count">9</b> second</div>
+<button class="btn-blue" onclick="joinNow()">🚀 Join Free Telegram Channel</button>
+<button class="btn-white">🇮🇳 India's Trusted Trading Community</button>
+<div style="margin-top:28px">
+<div class="point"><div class="tick">✓</div>Daily Market Analysis & Nifty/BankNifty Updates</div>
+<div class="point"><div class="tick">✓</div>Price Action & Chart Patterns Education</div>
+<div class="point"><div class="tick">✓</div>Proper Risk Management Strategies</div>
+<div class="point"><div class="tick">✓</div>⭐ 10,000+ Active Traders Learning Together</div>
+<div class="point"><div class="tick">✓</div>Suitable for Beginners & Advanced Traders</div>
+</div>
+</div>
+<script>
+let sec=9;
+let TELEGRAM_LINK="https://t.me/+7F1_TpaFyWxjNWY1";
+setInterval(()=>{
+sec--;document.getElementById('count').innerText=sec;
+if(sec<=0)window.location.href=TELEGRAM_LINK;
+},1000);
+function joinNow(){window.location.href=TELEGRAM_LINK;}
+</script>
+</body>
+</html>
